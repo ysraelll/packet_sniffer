@@ -24,3 +24,20 @@ A lightweight command-line packet sniffer built with Python and [Scapy](https://
 
 ```bash
 pip install scapy
+
+####
+🚀 Usage
+
+python packetsniff.py -h 
+
+🔍 Common Examples
+
+sudo python sniff.py
+
+sudo python sniff.py --protocol tcp
+
+sudo python sniff.py --protocol udp --src-ip 192.168.1.10
+
+sudo python sniff.py --protocol tcp --dst-port 443
+
+sudo python sniff.py --iface eth0 --protocol udp
